@@ -6043,6 +6043,7 @@ dependencies = [
  "solana-logger",
  "solana-program-runtime",
  "solana-sdk",
+ "solana-short-vec",
 ]
 
 [[package]]
@@ -6133,6 +6134,7 @@ dependencies = [
  "solana-sanitize",
  "solana-sdk",
  "solana-send-transaction-service",
+ "solana-short-vec",
  "solana-stake-program",
  "solana-streamer",
  "solana-svm",
@@ -6431,6 +6433,7 @@ dependencies = [
  "solana-runtime",
  "solana-sanitize",
  "solana-sdk",
+ "solana-short-vec",
  "solana-streamer",
  "solana-tpu-client",
  "solana-version",
@@ -6751,6 +6754,7 @@ dependencies = [
  "solana-metrics",
  "solana-rayon-threadlimit",
  "solana-sdk",
+ "solana-short-vec",
  "solana-vote-program",
  "test-case",
 ]
@@ -6856,6 +6860,7 @@ dependencies = [
  "solana-logger",
  "solana-sanitize",
  "solana-sdk-macro",
+ "solana-short-vec",
  "static_assertions",
  "thiserror",
  "wasm-bindgen",
@@ -7320,6 +7325,7 @@ dependencies = [
  "solana-sanitize",
  "solana-sdk",
  "solana-sdk-macro",
+ "solana-short-vec",
  "static_assertions",
  "thiserror",
  "tiny-bip39",
@@ -7721,6 +7727,7 @@ dependencies = [
  "rand 0.8.5",
  "solana-perf",
  "solana-sdk",
+ "solana-short-vec",
 ]
 
 [[package]]
