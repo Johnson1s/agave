@@ -5197,6 +5197,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "solana-native-token"
+version = "2.1.0"
+
+[[package]]
 name = "solana-net-utils"
 version = "2.1.0"
 dependencies = [
@@ -5312,6 +5316,7 @@ dependencies = [
  "serde_derive",
  "sha2 0.10.8",
  "sha3 0.10.8",
+ "solana-native-token",
  "solana-sdk-macro",
  "thiserror",
  "wasm-bindgen",
@@ -6137,6 +6142,7 @@ dependencies = [
  "sha2 0.10.8",
  "sha3 0.10.8",
  "siphasher",
+ "solana-native-token",
  "solana-program",
  "solana-sdk-macro",
  "thiserror",

@@ -1,6 +1,6 @@
 //! Fee structures.
 
-use crate::native_token::sol_to_lamports;
+use solana_native_token::sol_to_lamports;
 #[cfg(not(target_os = "solana"))]
 use solana_program::message::SanitizedMessage;
 
