@@ -2,7 +2,6 @@
 use crate::stake::config;
 use {
     crate::{
-        clock::{Epoch, UnixTimestamp},
         decode_error::DecodeError,
         instruction::{AccountMeta, Instruction},
         program_error::ProgramError,
@@ -16,6 +15,7 @@ use {
     log::*,
     num_derive::{FromPrimitive, ToPrimitive},
     serde_derive::{Deserialize, Serialize},
+    solana_clock::{Epoch, UnixTimestamp},
     thiserror::Error,
 };
 

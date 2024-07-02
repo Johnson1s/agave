@@ -534,6 +534,7 @@ pub mod sysvar;
 pub mod vote;
 pub mod wasm;
 
+pub use solana_clock as clock;
 #[deprecated(since = "2.1.0", note = "Use `solana-sanitize` crate instead")]
 pub use solana_sanitize as sanitize;
 #[cfg(target_arch = "wasm32")]

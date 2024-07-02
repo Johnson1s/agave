@@ -6860,6 +6860,7 @@ dependencies = [
  "sha2 0.10.8",
  "sha3 0.10.8",
  "solana-atomic-u64",
+ "solana-clock",
  "solana-define-syscall",
  "solana-frozen-abi",
  "solana-frozen-abi-macro",
