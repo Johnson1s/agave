@@ -6856,6 +6856,7 @@ dependencies = [
  "solana-logger",
  "solana-sanitize",
  "solana-sdk-macro",
+ "solana-secp256k1-recover",
  "static_assertions",
  "thiserror",
  "wasm-bindgen",
