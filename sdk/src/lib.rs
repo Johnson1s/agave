@@ -112,8 +112,6 @@ pub mod wasm;
 
 #[deprecated(since = "2.1.0", note = "Use `solana-sanitize` crate instead")]
 pub use solana_sanitize as sanitize;
-#[deprecated(since = "2.1.0", note = "Use `solana-short-vec` crate instead")]
-pub use solana_short_vec as short_vec;
 /// Same as `declare_id` except report that this id has been deprecated.
 pub use solana_sdk_macro::declare_deprecated_id;
 /// Convenience macro to declare a static public key and functions to interact with it.
@@ -156,6 +154,8 @@ pub use solana_sdk_macro::declare_id;
 pub use solana_sdk_macro::pubkey;
 /// Convenience macro to define multiple static public keys.
 pub use solana_sdk_macro::pubkeys;
+#[deprecated(since = "2.1.0", note = "Use `solana-short-vec` crate instead")]
+pub use solana_short_vec as short_vec;
 
 /// Convenience macro for `AddAssign` with saturating arithmetic.
 /// Replace by `std::num::Saturating` once stable
