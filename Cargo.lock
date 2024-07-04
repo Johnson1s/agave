@@ -5733,6 +5733,7 @@ dependencies = [
  "solana-curve25519",
  "solana-measure",
  "solana-poseidon",
+ "solana-program-memory",
  "solana-program-runtime",
  "solana-sdk",
  "solana-type-overrides",
@@ -6854,11 +6855,20 @@ dependencies = [
  "solana-frozen-abi",
  "solana-frozen-abi-macro",
  "solana-logger",
+ "solana-program-memory",
  "solana-sanitize",
  "solana-sdk-macro",
  "static_assertions",
  "thiserror",
  "wasm-bindgen",
+]
+
+[[package]]
+name = "solana-program-memory"
+version = "2.1.0"
+dependencies = [
+ "num-traits",
+ "solana-define-syscall",
 ]
 
 [[package]]
@@ -7317,6 +7327,7 @@ dependencies = [
  "solana-frozen-abi-macro",
  "solana-logger",
  "solana-program",
+ "solana-program-memory",
  "solana-sanitize",
  "solana-sdk",
  "solana-sdk-macro",

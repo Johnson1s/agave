@@ -52,10 +52,9 @@ pub use solana_program::{
     decode_error, ed25519_program, epoch_rewards, epoch_schedule, fee_calculator, impl_sysvar_get,
     incinerator, instruction, keccak, lamports, loader_instruction, loader_upgradeable_instruction,
     loader_v4, loader_v4_instruction, message, msg, native_token, nonce, program, program_error,
-    program_memory, program_option, program_pack, rent, secp256k1_program, secp256k1_recover,
-    serde_varint, serialize_utils, short_vec, slot_hashes, slot_history, stable_layout, stake,
-    stake_history, syscalls, system_instruction, system_program, sysvar, unchecked_div_by_const,
-    vote,
+    program_option, program_pack, rent, secp256k1_program, secp256k1_recover, serde_varint,
+    serialize_utils, short_vec, slot_hashes, slot_history, stable_layout, stake, stake_history,
+    syscalls, system_instruction, system_program, sysvar, unchecked_div_by_const, vote,
 };
 #[cfg(feature = "borsh")]
 pub use solana_program::{borsh, borsh0_10, borsh1};
@@ -111,6 +110,8 @@ pub mod transaction_context;
 pub mod transport;
 pub mod wasm;
 
+#[deprecated(since = "2.1.0", note = "Use `solana-program-memory` crate instead")]
+pub use solana_program_memory as program_memory;
 #[deprecated(since = "2.1.0", note = "Use `solana-sanitize` crate instead")]
 pub use solana_sanitize as sanitize;
 /// Same as `declare_id` except report that this id has been deprecated.
