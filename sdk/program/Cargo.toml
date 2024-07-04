@@ -34,7 +34,7 @@ sha3 = { workspace = true }
 solana-atomic-u64 = { workspace = true }
 solana-frozen-abi = { workspace = true, optional = true }
 solana-frozen-abi-macro = { workspace = true, optional = true }
-solana-hash = { workspace = true }
+solana-hash = { workspace = true, features = ["borsh", "bytemuck", "serde"] }
 solana-hasher = { workspace = true }
 solana-sanitize = { workspace = true }
 solana-sdk-macro = { workspace = true }
